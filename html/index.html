@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Andrew Tsang Portfolio Website">
+    <meta name="author" content="Andrew Tsang">
+    <meta name='robots' content='noindex,follow' />
+
+    <title>Andrew Tsang Portfolio Website</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet"> 
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="styles/main.css">
+
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light static-top">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+                aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="line" id="topbar"></span>
+                <span class="line"></span>
+                <span class="line" id="bottombar" style="margin-bottom: 0;"></span>
+            </button>
+            <a class="navbar-brand" href="#">
+                <img src="images/coder.png" height="50" class="d-inline-block align-top" alt="">
+                
+            </a>
+
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home
+                            <span class="sr-only">(current)</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Content -->
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h1 class="mt-5">Hi, I'm Andrew Tsang</h1>
+                <p class="lead mb-5">An IT Professional whom has expertise in Design, Development and Maintenance.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <div class="card-deck">
+                    <div class="card border-primary mb-3">
+                        <div class="card-header h4">
+                            Java</div>
+                        <div class="card-body">
+                            <ul class="list-unstyled">
+                                <li>Over 10 years of Java working experience</li>
+                                <li>Certified Java progammer</li>
+                                <li>Using Java for enterprise application</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="card border-success mb-3">
+                        <div class="card-header h4">PHP</div>
+                        <div class="card-body">
+                            <ul class="list-unstyled">
+                                <li>Familiar with PHP framework Laravel</li>
+                                <li>MVC design pattern</li>
+                                <li>In-depth knowledge on WordPress Custom Theme</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="card border-warning mb-3">
+                        <div class="card-header h4">JavaScript</div>
+                        <div class="card-body">
+                            <ul class="list-unstyled">
+                                <li>Working experience with JavaScript and jQuery</li>
+                                <li>Utilise AngularJS framework</li>
+                                <li>Self-taught React framework</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <div class="card-deck">
+                    <div class="card border-secondary mb-3">
+                        <div class="card-header h4">C#</div>
+                        <div class="card-body">
+                            <ul class="list-unstyled">
+                                <li>Development for peripheral application</li>
+                                <li>Integration with Facial Recognition Engine</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="card border-danger mb-3">
+                        <div class="card-header h4">Database</div>
+                        <div class="card-body">
+                            <ul class="list-unstyled">
+                                <li>Solid understanding in Relational Database Design</li>
+                                <li>Working experience with IBM DB2</li>
+                                <li>Familiar with MySQL</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="card border-info mb-3">
+                        <div class="card-header h4">Platform</div>
+                        <div class="card-body">
+                            <ul class="list-unstyled">
+                                <li>Working experience with IBM AIX Unix</li>
+                                <li>Development in Linux and Windows</li>
+                                <li>Deployment to AWS and Azure cloud</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs=" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+
+    <script>
+
+        $(document).ready(function (){
+            $(".card").hover(function (){
+                $(this).children(".card-header").addClass("text-white");
+                $(this).children(".card-header").addClass("bg-primary");
+                $(this).addClass("bx");
+
+            }, function() {
+                $(this).children(".card-header").removeClass("text-white");
+                $(this).children(".card-header").removeClass("bg-primary");
+                $(this).removeClass("bx");
+            })
+        });
+
+    </script>
+</body>
+
+</html>

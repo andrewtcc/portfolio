@@ -1,0 +1,62 @@
+.navbar-toggler {
+    width: 45px;
+    height: 45px;
+    background-color: #999;
+    border: none;
+}
+
+.navbar-toggler .line {
+    background-color: #fff;
+    height: 4px;
+    width: 27px;
+    display: block;
+    margin: 2px 7px 7px -2px;
+    transition: all 0.4s ease-in-out;
+    transform-origin: 0 0;
+    border-radius: 2px;
+}
+
+.navbar-toggler:hover {
+    transform: rotate(-90deg);
+}
+
+.navbar-toggler:hover span#topbar {
+    transform: translate(3px, 12px) rotate(45deg);
+    width: 23px;
+}
+
+.navbar-toggler:hover span#bottombar {
+    transform: translate(0px, -11px) rotate(-45deg);
+    width: 23px;
+}
+
+body {
+    font-family: "Arial";
+}
+
+h1 {
+    font-family: Raleway;
+}
+/*
+@media (min-width: 544px) {  
+    h1 {font-size:1.5rem;} 
+}
+
+@media (min-width: 768px) {  
+    h1 {font-size:2rem;} 
+}
+
+@media (min-width: 992px) { 
+    h1 {font-size:2.5rem;} 
+}
+
+@media (min-width: 1200px) {  
+    h1 {font-size:3rem;} 
+} 
+*/
+
+.bx {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
